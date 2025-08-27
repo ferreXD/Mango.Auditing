@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFrameworkCore.Auditing", "EntityFrameworkCore.Auditing", "{09DE956D-AF79-4BB5-98E9-520CD574F6D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Auditing", "src\EntityFrameworkCore.Auditing\Ferreimavi.EntityFrameworkCore.Auditing\Mango.Auditing.csproj", "{F6BCF208-0CB2-46A3-81B5-59BEFA2E8DF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFrameworkCore.Auditing.Tests", "EntityFrameworkCore.Auditing.Tests", "{C65554D2-5C7B-4A33-A1A3-28720B0C31CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Auditing.Tests.UnitTests", "tests\EntityFrameworkCore.Auditing.Tests.UnitTests\Mango.Auditing.Tests.UnitTests.csproj", "{60D52152-FF3A-48C8-89C7-B7F76F6F6AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Auditing.Serilog", "src\EntityFrameworkCore.Auditing\Ferreimavi.EntityFrameworkCore.Auditing.Serilog\Mango.Auditing.Serilog.csproj", "{B7E97EBB-319E-4E04-9DF8-49396171AED0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6BCF208-0CB2-46A3-81B5-59BEFA2E8DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BCF208-0CB2-46A3-81B5-59BEFA2E8DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BCF208-0CB2-46A3-81B5-59BEFA2E8DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BCF208-0CB2-46A3-81B5-59BEFA2E8DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D52152-FF3A-48C8-89C7-B7F76F6F6AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D52152-FF3A-48C8-89C7-B7F76F6F6AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D52152-FF3A-48C8-89C7-B7F76F6F6AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D52152-FF3A-48C8-89C7-B7F76F6F6AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E97EBB-319E-4E04-9DF8-49396171AED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E97EBB-319E-4E04-9DF8-49396171AED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E97EBB-319E-4E04-9DF8-49396171AED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E97EBB-319E-4E04-9DF8-49396171AED0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09DE956D-AF79-4BB5-98E9-520CD574F6D8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F6BCF208-0CB2-46A3-81B5-59BEFA2E8DF6} = {09DE956D-AF79-4BB5-98E9-520CD574F6D8}
+		{C65554D2-5C7B-4A33-A1A3-28720B0C31CC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{60D52152-FF3A-48C8-89C7-B7F76F6F6AB2} = {C65554D2-5C7B-4A33-A1A3-28720B0C31CC}
+		{B7E97EBB-319E-4E04-9DF8-49396171AED0} = {09DE956D-AF79-4BB5-98E9-520CD574F6D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F799EE8-1555-49B2-A35A-B030B4662F2F}
+	EndGlobalSection
+EndGlobal

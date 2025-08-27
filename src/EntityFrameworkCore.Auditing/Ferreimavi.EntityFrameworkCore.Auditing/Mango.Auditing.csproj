@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Ferreimavi.EntityFramework.Auditing</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ferreimavi</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Telemetry\Components\Logging\Models\**" />
+    <EmbeddedResource Remove="Telemetry\Components\Logging\Models\**" />
+    <None Remove="Telemetry\Components\Logging\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Coravel" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.13" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.3" />
+  </ItemGroup>
+
+</Project>
